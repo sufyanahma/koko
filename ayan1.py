@@ -19,7 +19,7 @@ except ImportError:
     os.system("pip2 install requests")
     os.system("pip2 install mechanize")
     time.sleep(1)
-    os.system("python2 ayan1.py")
+   
     
 from requests.exceptions import ConnectionError
 reload(sys)
